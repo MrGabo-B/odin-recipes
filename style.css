@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    background-color: rgb(255, 217, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.recipes-title{
+    text-align: center;
+    color: rgb(42, 44, 65);
+    text-transform: uppercase;
+}
+.cheems-chef{
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+}
+.container-recipes {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 10px 30px;
+    border: 1px solid rgb(42, 44, 65);
+    border-radius: 10px;
+}
+.recipes-name{
+    color: rgb(239, 37, 60);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.box-name-recipes{
+    
+    list-style-type:none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* Lasagna */
+
